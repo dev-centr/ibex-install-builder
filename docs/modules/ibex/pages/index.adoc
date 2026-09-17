@@ -9,7 +9,7 @@
 
 It is *not* a software catalog installer (it does not replace winget, apt, or Homebrew for installing third-party apps).
 
-image::https://raw.githubusercontent.com/dev-centr/ibex-install-builder/main/assets/ibex.svg[Ibex logo,80]
+image::ibex.svg[Ibex logo,80]
 
 == Get the binary
 
@@ -33,6 +33,6 @@ ibex plugins open-gui inno .
 
 == Related
 
-* Engine for MSI/MSIX plugins: xref:msi-generator:ROOT:index.adoc[MSI/MSIX Generator]
+* Engine for MSI/MSIX plugins: xref:tools:msi-generator:index.adoc[MSI/MSIX Generator]
 * Portal overview: xref:home::tools/ibex.adoc[Ibex (portal)]
 * Upstream packaging roadmap: xref:home::tools/native-installer-roadmap.adoc[Native installer builder roadmap]

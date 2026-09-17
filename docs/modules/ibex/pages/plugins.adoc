@@ -19,7 +19,7 @@
 | link:https://jrsoftware.org/isdl.php[Inno Setup]
 
 | `msi` / `msix`
-| Invoke xref:msi-generator:ROOT:index.adoc[msi-generator]
+| Invoke xref:tools:msi-generator:index.adoc[msi-generator]
 | Set `MSI_GENERATOR` or put `msi-generator` on PATH
 
 | `appimage`

@@ -17,7 +17,7 @@ ifdef::env-github[]
 <h3 align="center">Ibex</h3>
 <p align="center">
 Install Builder EXtension — author installer packages and put tools on PATH.<br />
-<a href="https://docs.devcentr.org/ibex/latest/index.html"><strong>Explore the docs »</strong></a><br /><br />
+<a href="https://docs.devcentr.org/tools/ibex/latest/index.html"><strong>Explore the docs »</strong></a><br /><br />
 <a href="https://github.com/dev-centr/ibex-install-builder/issues">Report Bug</a>
 &middot;
 <a href="https://github.com/dev-centr/ibex-install-builder/issues">Request Feature</a>
@@ -44,7 +44,7 @@ image::https://raw.githubusercontent.com/dev-centr/ibex-install-builder/main/ass
 
 link:CHANGELOG.adoc[Changelog] ·
 link:https://github.com/dev-centr/ibex-install-builder/issues[Issues] ·
-link:https://docs.devcentr.org/ibex/latest/index.html[Docs]
+link:https://docs.devcentr.org/tools/ibex/latest/index.html[Docs]
 endif::[]
 
 == About The Project
@@ -168,7 +168,7 @@ endif::[]
 DevCentr.org — support@devcentr.org
 
 * Project: https://github.com/dev-centr/ibex-install-builder
-* Docs: https://docs.devcentr.org/ibex/latest/index.html
+* Docs: https://docs.devcentr.org/tools/ibex/latest/index.html
 * Site: https://devcentr.org
 
 ifdef::env-github[]
