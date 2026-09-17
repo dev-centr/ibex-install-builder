@@ -1,7 +1,7 @@
 {
 	"name": "ibex",
 	"description": "Ibex (Install Builder EXtension) — author installer packages and put tools on PATH.",
-	"homepage": "https://github.com/dev-centr/easy-installer",
+	"homepage": "https://github.com/dev-centr/ibex-install-builder",
 	"authors": ["DevCentr"],
 	"license": "MIT",
 	"targetType": "executable",

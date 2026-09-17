@@ -1,13 +1,15 @@
-#!/usr/bin/env pwsh
-# Copy built easy-installer next to shell assets for local modern registration.
-$ErrorActionPreference = 'Stop'
-$root = Split-Path (Split-Path $PSScriptRoot -Parent) -Parent
-if (-not (Test-Path (Join-Path $root 'easy-installer.exe'))) {
-  $root = Split-Path $PSScriptRoot -Parent
+# Register shell integration assets for local testing.
+# Prefer built ibex.exe; fall back to transitional easy-installer.exe if present.
+$root = Split-Path -Parent $PSScriptRoot
+$exe = $null
+foreach ($name in @('ibex.exe', 'easy-installer.exe')) {
+    $candidate = Join-Path $root $name
+    if (Test-Path $candidate) { $exe = $candidate; break }
 }
-$exe = Join-Path $root 'easy-installer.exe'
-if (-not (Test-Path $exe)) {
-  Write-Host "Build with: dub build --build=release"
-  exit 1
+if (-not $exe) {
+    Write-Error "Build ibex.exe (or legacy easy-installer.exe) in the repo root first."
+    exit 1
 }
-& $exe shell install
+Write-Host "Using $exe"
+# Copy built binary next to shell assets for local modern registration.
+Copy-Item -Force $exe (Join-Path $PSScriptRoot 'ibex.exe')

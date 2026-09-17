@@ -83,10 +83,10 @@ private string downloadIbexBash(const ref CiRunnerProfile p)
     auto ver = p.ibex;
     if (ver == "latest")
         return `# Resolve latest Ibex release asset for this OS
-curl -fsSL -o ibex "https://github.com/dev-centr/easy-installer/releases/latest/download/ibex-linux-amd64"
+curl -fsSL -o ibex "https://github.com/dev-centr/ibex-install-builder/releases/latest/download/ibex-linux-amd64"
 chmod +x ibex
 `;
-    return format!`curl -fsSL -o ibex "https://github.com/dev-centr/easy-installer/releases/download/v%s/ibex-linux-amd64"
+    return format!`curl -fsSL -o ibex "https://github.com/dev-centr/ibex-install-builder/releases/download/v%s/ibex-linux-amd64"
 chmod +x ibex
 `(ver);
 }
@@ -95,7 +95,7 @@ private string downloadIbexPwsh(const ref CiRunnerProfile p)
 {
     auto ver = p.ibex;
     auto tag = ver == "latest" ? "latest/download" : ("download/v" ~ ver);
-    return format!`$url = "https://github.com/dev-centr/easy-installer/releases/%s/ibex-windows-amd64.exe"
+    return format!`$url = "https://github.com/dev-centr/ibex-install-builder/releases/%s/ibex-windows-amd64.exe"
 Invoke-WebRequest -Uri $url -OutFile ibex.exe
 `(tag);
 }
@@ -413,6 +413,6 @@ string emitHowto(const ref InstallerProject proj, const ref CiRunnerProfile p, s
         ~ "== Optional local smoke test\n\n"
         ~ "[source,bash]\n----\nibex build . --plugin=" ~ p.plugin ~ "\n----\n\n"
         ~ "== Related\n\n"
-        ~ "* https://github.com/dev-centr/easy-installer\n"
+        ~ "* https://github.com/dev-centr/ibex-install-builder\n"
         ~ "* https://github.com/dev-centr/msi-generator\n";
 }

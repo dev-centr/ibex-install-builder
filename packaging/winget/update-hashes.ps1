@@ -5,7 +5,7 @@ param(
 
 $ErrorActionPreference = "Stop"
 $tag = "v$Version"
-$base = "https://github.com/dev-centr/easy-installer/releases/download/$tag"
+$base = "https://github.com/dev-centr/ibex-install-builder/releases/download/$tag"
 $asset = "ibex-windows-amd64.exe"
 $url = "$base/$asset"
 $tmp = Join-Path $env:TEMP $asset

@@ -9,13 +9,13 @@
 
 It is *not* a software catalog installer (it does not replace winget, apt, or Homebrew for installing third-party apps).
 
-image::https://raw.githubusercontent.com/dev-centr/easy-installer/main/assets/ibex.svg[Ibex logo,80]
+image::https://raw.githubusercontent.com/dev-centr/ibex-install-builder/main/assets/ibex.svg[Ibex logo,80]
 
 == Get the binary
 
 * winget: `winget install DevCentr.Ibex`
 * Homebrew: `brew tap dev-centr/tap && brew install ibex`
-* Releases: link:https://github.com/dev-centr/easy-installer/releases[GitHub Releases]
+* Releases: link:https://github.com/dev-centr/ibex-install-builder/releases[GitHub Releases]
 * After install: `ibex shell install` for file-manager menus
 
 == Commands (quick)

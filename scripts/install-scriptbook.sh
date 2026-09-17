@@ -55,7 +55,7 @@ fi
 
 cat >&2 <<'EOF'
 Could not install Scriptbook.
-- Clone https://github.com/dev-centr/scriptbook next to easy-installer and install DUB, or
+- Clone https://github.com/dev-centr/scriptbook next to ibex-install-builder and install DUB, or
 - Install GitHub CLI (gh) and re-run, or
 - Download https://github.com/dev-centr/scriptbook/releases
 EOF

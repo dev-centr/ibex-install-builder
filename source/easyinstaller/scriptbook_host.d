@@ -71,7 +71,7 @@ string installScriptbook()
         return "Scriptbook already at " ~ already;
     auto script = bootstrapScript();
     if (!script.length)
-        return "Bootstrap script not found. Clone easy-installer and run scripts/install-scriptbook"
+        return "Bootstrap script not found. Clone ibex-install-builder and run scripts/install-scriptbook"
             ~ (onWindows() ? ".ps1" : ".sh")
             ~ ", or download a release from https://github.com/dev-centr/scriptbook/releases";
     version (Windows)

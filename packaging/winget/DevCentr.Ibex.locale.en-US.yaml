@@ -4,12 +4,12 @@ PackageVersion: 0.2.0
 PackageLocale: en-US
 Publisher: DevCentr
 PublisherUrl: https://devcentr.org
-PublisherSupportUrl: https://github.com/dev-centr/easy-installer/issues
+PublisherSupportUrl: https://github.com/dev-centr/ibex-install-builder/issues
 Author: DevCentr
 PackageName: Ibex
-PackageUrl: https://github.com/dev-centr/easy-installer
+PackageUrl: https://github.com/dev-centr/ibex-install-builder
 License: MIT
-LicenseUrl: https://github.com/dev-centr/easy-installer/blob/main/LICENSE
+LicenseUrl: https://github.com/dev-centr/ibex-install-builder/blob/main/LICENSE
 Copyright: Copyright (c) DevCentr
 ShortDescription: Install Builder Extension — author installer packages and put tools on PATH.
 Description: >

@@ -7,41 +7,43 @@ ifdef::env-github[]
 ++++
 <a id="readme-top"></a>
 <div align="center">
-<a href="https://github.com/dev-centr/easy-installer/graphs/contributors"><img src="https://img.shields.io/github/contributors/dev-centr/easy-installer.svg?style=for-the-badge" alt="Contributors"></a>
-<a href="https://github.com/dev-centr/easy-installer/network/members"><img src="https://img.shields.io/github/forks/dev-centr/easy-installer.svg?style=for-the-badge" alt="Forks"></a>
-<a href="https://github.com/dev-centr/easy-installer/stargazers"><img src="https://img.shields.io/github/stars/dev-centr/easy-installer.svg?style=for-the-badge" alt="Stars"></a>
-<a href="https://github.com/dev-centr/easy-installer/issues"><img src="https://img.shields.io/github/issues/dev-centr/easy-installer.svg?style=for-the-badge" alt="Issues"></a>
-<a href="https://github.com/dev-centr/easy-installer/blob/main/LICENSE"><img src="https://img.shields.io/github/license/dev-centr/easy-installer.svg?style=for-the-badge" alt="License"></a>
+<a href="https://github.com/dev-centr/ibex-install-builder/graphs/contributors"><img src="https://img.shields.io/github/contributors/dev-centr/ibex-install-builder.svg?style=for-the-badge" alt="Contributors"></a>
+<a href="https://github.com/dev-centr/ibex-install-builder/network/members"><img src="https://img.shields.io/github/forks/dev-centr/ibex-install-builder.svg?style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/dev-centr/ibex-install-builder/stargazers"><img src="https://img.shields.io/github/stars/dev-centr/ibex-install-builder.svg?style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/dev-centr/ibex-install-builder/issues"><img src="https://img.shields.io/github/issues/dev-centr/ibex-install-builder.svg?style=for-the-badge" alt="Issues"></a>
+<a href="https://github.com/dev-centr/ibex-install-builder/blob/main/LICENSE"><img src="https://img.shields.io/github/license/dev-centr/ibex-install-builder.svg?style=for-the-badge" alt="License"></a>
 <br />
-<img src="https://raw.githubusercontent.com/dev-centr/easy-installer/main/assets/ibex.svg" alt="Ibex logo" width="100" />
+<img src="https://raw.githubusercontent.com/dev-centr/ibex-install-builder/main/assets/ibex.svg" alt="Ibex logo" width="100" />
 <h3 align="center">Ibex</h3>
 <p align="center">
 Install Builder EXtension — author installer packages and put tools on PATH.<br />
 <a href="https://docs.devcentr.org/ibex/latest/index.html"><strong>Explore the docs »</strong></a><br /><br />
-<a href="https://github.com/dev-centr/easy-installer/issues">Report Bug</a>
+<a href="https://github.com/dev-centr/ibex-install-builder/issues">Report Bug</a>
 &middot;
-<a href="https://github.com/dev-centr/easy-installer/issues">Request Feature</a>
+<a href="https://github.com/dev-centr/ibex-install-builder/issues">Request Feature</a>
 </p>
 </div>
 ++++
 endif::[]
 
 ifndef::env-github[]
-image:https://img.shields.io/github/contributors/dev-centr/easy-installer.svg?style=for-the-badge[Contributors,link=https://github.com/dev-centr/easy-installer/graphs/contributors]
-image:https://img.shields.io/github/forks/dev-centr/easy-installer.svg?style=for-the-badge[Forks,link=https://github.com/dev-centr/easy-installer/network/members]
-image:https://img.shields.io/github/stars/dev-centr/easy-installer.svg?style=for-the-badge[Stars,link=https://github.com/dev-centr/easy-installer/stargazers]
-image:https://img.shields.io/github/issues/dev-centr/easy-installer.svg?style=for-the-badge[Issues,link=https://github.com/dev-centr/easy-installer/issues]
-image:https://img.shields.io/github/license/dev-centr/easy-installer.svg?style=for-the-badge[License,link=https://github.com/dev-centr/easy-installer/blob/main/LICENSE]
+image:https://img.shields.io/github/contributors/dev-centr/ibex-install-builder.svg?style=for-the-badge[Contributors,link=https://github.com/dev-centr/ibex-install-builder/graphs/contributors]
+image:https://img.shields.io/github/forks/dev-centr/ibex-install-builder.svg?style=for-the-badge[Forks,link=https://github.com/dev-centr/ibex-install-builder/network/members]
+image:https://img.shields.io/github/stars/dev-centr/ibex-install-builder.svg?style=for-the-badge[Stars,link=https://github.com/dev-centr/ibex-install-builder/stargazers]
+image:https://img.shields.io/github/issues/dev-centr/ibex-install-builder.svg?style=for-the-badge[Issues,link=https://github.com/dev-centr/ibex-install-builder/issues]
+image:https://img.shields.io/github/license/dev-centr/ibex-install-builder.svg?style=for-the-badge[License,link=https://github.com/dev-centr/ibex-install-builder/blob/main/LICENSE]
 
 = Ibex
+
+Repository: https://github.com/dev-centr/ibex-install-builder[`dev-centr/ibex-install-builder`] (formerly `easy-installer`).
 :description: Install Builder EXtension — author installer packages and put tools on PATH.
 
-image::https://raw.githubusercontent.com/dev-centr/easy-installer/main/assets/ibex.svg[Ibex logo,100]
+image::https://raw.githubusercontent.com/dev-centr/ibex-install-builder/main/assets/ibex.svg[Ibex logo,100]
 
 **Ibex** (*Install Builder EXtension*) extends file managers, DevCentr, and CI with installer-authoring and **Install in-place (add to PATH)**. It is **not** a software catalog installer (it does not replace winget/apt).
 
 link:CHANGELOG.adoc[Changelog] ·
-link:https://github.com/dev-centr/easy-installer/issues[Issues] ·
+link:https://github.com/dev-centr/ibex-install-builder/issues[Issues] ·
 link:https://docs.devcentr.org/ibex/latest/index.html[Docs]
 endif::[]
 
@@ -84,7 +86,7 @@ Prefer the release asset if registries are still catching up:
 
 [source,bash]
 ----
-# Download ibex-* from https://github.com/dev-centr/easy-installer/releases
+# Download ibex-* from https://github.com/dev-centr/ibex-install-builder/releases
 # Put ibex on PATH, then:
 ibex shell install
 ----
@@ -165,7 +167,7 @@ endif::[]
 
 DevCentr.org — support@devcentr.org
 
-* Project: https://github.com/dev-centr/easy-installer
+* Project: https://github.com/dev-centr/ibex-install-builder
 * Docs: https://docs.devcentr.org/ibex/latest/index.html
 * Site: https://devcentr.org
 
