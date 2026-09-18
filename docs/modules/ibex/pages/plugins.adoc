@@ -1,4 +1,4 @@
-= Plugins
+﻿= Plugins
 :description: Built-in installer backends and GUI discovery.
 :navtitle: Plugins
 
@@ -42,3 +42,7 @@ ibex plugins install-gui inno
 `install-tool` runs the plugin's Scriptbook playbook. `open-gui` emits sources and opens the designer on that file. `install-gui` only opens the vendor download page.
 
 Type-specific fields live in `installer.kdl` `extras { }` — see xref:howto-plugin-tools.adoc[How-to: plugin tools].
+
+== Install Coordinator / UIL
+
+Builtin plugin ids uil and install-coordinator emit Unity Install Layout manifests and Install Coordinator job JSON. See xref:install-coordinator-uil.adoc[Install Coordinator / UIL].

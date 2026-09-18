@@ -1,4 +1,4 @@
-import easyinstaller.debugdump;
+﻿import easyinstaller.debugdump;
 import easyinstaller.inplace_path;
 import easyinstaller.plugin;
 import easyinstaller.project;
@@ -18,6 +18,7 @@ import easyinstaller.plugins.nsis;
 import easyinstaller.plugins.inno;
 import easyinstaller.plugins.msi_msix;
 import easyinstaller.plugins.appimage;
+import easyinstaller.plugins.install_coordinator;
 
 int main(string[] args)
 {

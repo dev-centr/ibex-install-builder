@@ -1,5 +1,9 @@
-= Changelog
+﻿= Changelog
 
+== 2026-09-18 - Install Coordinator / UIL plugin
+
+* Builtin plugins `uil` and `install-coordinator` emit Unity Install Layout manifests and Install Coordinator job JSON under `dist/`
+* Docs: xref:install-coordinator-uil.adoc[Install Coordinator / UIL]
 == 2026-08-13 — Plugin extras, Scriptbook tool install, designer handoff
 
 * `installer.kdl` `extras { }` for type-specific overlay fields; `ibex plugins describe` prints JSON schema
