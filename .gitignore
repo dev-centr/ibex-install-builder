@@ -25,3 +25,5 @@ playbooks/*.cmk.runs/
 !assets/**
 !packaging/
 !packaging/**
+!/.editorconfig
+!/.gitattributes
