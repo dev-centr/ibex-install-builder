@@ -26,10 +26,10 @@ jobs:
             legacy_name: easy-installer-macos-amd64
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Install D compiler
-        uses: dlang-community/setup-dlang@v1
+        uses: dlang-community/setup-dlang@v2
         with:
           compiler: ldc-latest
 
@@ -48,7 +48,7 @@ jobs:
           cp "${{ matrix.asset_name }}" "${{ matrix.legacy_name }}"
 
       - name: Upload binaries to release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
