@@ -1,4 +1,5 @@
-﻿* xref:index.adoc[Introduction]
+﻿.Ibex
+* xref:index.adoc[Overview]
 * xref:howto-inplace-path.adoc[How-to: in-place PATH]
 * xref:howto-projects.adoc[How-to: installer projects]
 * xref:howto-emit-ci.adoc[How-to: emit CI pipelines]
