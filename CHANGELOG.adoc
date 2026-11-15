@@ -1,5 +1,9 @@
 ﻿= Changelog
 
+== 2026-11-15
+
+* The README contents list now sits under the header inside the expander.
+
 == 2026-09-18 - Install Coordinator / UIL plugin
 
 * Builtin plugins `uil` and `install-coordinator` emit Unity Install Layout manifests and Install Coordinator job JSON under `dist/`

@@ -1,5 +1,6 @@
 ifndef::env-github[:icons: font]
-:toc: preamble
+:toc: macro
+:toc-title:
 :toclevels: 2
 :sectanchors:
 
@@ -46,6 +47,15 @@ link:CHANGELOG.adoc[Changelog] ·
 link:https://github.com/dev-centr/ibex-install-builder/issues[Issues] ·
 link:https://docs.devcentr.org/tools/ibex/latest/index.html[Docs]
 endif::[]
+
+++++
+<details>
+<summary>Table of Contents</summary>
+++++
+toc::[]
+++++
+</details>
+++++
 
 == About The Project
 
